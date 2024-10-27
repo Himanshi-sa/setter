@@ -35,7 +35,7 @@ function renderOptions() {
   });
 }
 
-renderOptions();
+renderOptions(); 
 
 selectEl.addEventListener("change", (e) => {
   const selectedValue = e.target.value;
